@@ -31,11 +31,12 @@ Para recompilar automáticamente cada vez que guardes cambios:
 mjml promo.mjml -w -o promo.html
 
 ## 📄 Estructura del proyecto
-/
+```text
+/email-marketing-mjml
 ├── promo.mjml       # Archivo MJML editable
 ├── promo.html       # Archivo HTML generado
 └── README.md
-
+```
 ## 📝 Notas
 - MJML permite escribir emails con estructura limpia y moderna.  
 - El HTML generado por MJML es compatible con Gmail, Outlook y clientes que no soportan CSS moderno.  
