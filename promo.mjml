@@ -1,20 +1,29 @@
 <mjml>
+
+  <!-- Contenedor principal del email -->
   <mj-body background-color="#f4f4f4">
+
+    <!-- Sección principal del contenido -->
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column>
 
+        <!-- Logo -->
         <mj-image width="140px" src="https://via.placeholder.com/140x60?text=LOGO" />
 
+        <!-- Título principal -->
         <mj-text font-size="26px" font-weight="bold" color="#333" align="center">
           ¡50% de descuento solo por hoy!
         </mj-text>
 
+        <!-- Imagen destacada -->
         <mj-image src="https://via.placeholder.com/600x300" />
 
+        <!-- Texto descriptivo -->
         <mj-text font-size="16px" color="#555" align="center">
           Aprovecha esta oferta especial por tiempo limitado.
         </mj-text>
 
+        <!-- Botón de llamada a la acción -->
         <mj-button background-color="#E63946" color="#fff" font-weight="bold" href="#">
           Comprar ahora
         </mj-button>
@@ -22,6 +31,7 @@
       </mj-column>
     </mj-section>
 
+    <!-- Footer o pie de página -->
     <mj-section background-color="#ffffff">
       <mj-column>
         <mj-text font-size="12px" color="#999" align="center">
